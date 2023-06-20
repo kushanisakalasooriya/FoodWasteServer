@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A808C51029F1C56E00D0715B /* ReducingTipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1BADD29F1B3260035E705 /* ReducingTipCell.swift */; };
+		A80E811E29F0560900FBD5DC /* NutritionalCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E811D29F0560900FBD5DC /* NutritionalCalculatorVC.swift */; };
+		A80E812629F068F600FBD5DC /* CaloriesCalculatorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E812529F068F600FBD5DC /* CaloriesCalculatorsTest.swift */; };
+		A80E812C29F0692D00FBD5DC /* NutritionalCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E811D29F0560900FBD5DC /* NutritionalCalculatorVC.swift */; };
+		A85778FE29EE96910057D683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85778FD29EE96910057D683 /* AppDelegate.swift */; };
+		A857790029EE96910057D683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85778FF29EE96910057D683 /* SceneDelegate.swift */; };
+		A857790229EE96910057D683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857790129EE96910057D683 /* ViewController.swift */; };
+		A857790529EE96910057D683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A857790329EE96910057D683 /* Main.storyboard */; };
+		A857790829EE96910057D683 /* food_waste_reducing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A857790629EE96910057D683 /* food_waste_reducing.xcdatamodeld */; };
+		A857790A29EE96960057D683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A857790929EE96960057D683 /* Assets.xcassets */; };
+		A857790D29EE96960057D683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A857790B29EE96960057D683 /* LaunchScreen.storyboard */; };
+		A857791529EE9AB50057D683 /* AddFoodWasteTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791429EE9AB50057D683 /* AddFoodWasteTipsVC.swift */; };
+		A857791829EE9CED0057D683 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791629EE9CED0057D683 /* Food+CoreDataClass.swift */; };
+		A857791929EE9CED0057D683 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791729EE9CED0057D683 /* Food+CoreDataProperties.swift */; };
+		A857791B29EE9D1B0057D683 /* FoodDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791A29EE9D1B0057D683 /* FoodDBManager.swift */; };
+		A8681CCD29F13B22009B26F2 /* AddFoodWasteTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791429EE9AB50057D683 /* AddFoodWasteTipsVC.swift */; };
+		A8681CCE29F13B96009B26F2 /* FoodDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791A29EE9D1B0057D683 /* FoodDBManager.swift */; };
+		A8681CCF29F13BB6009B26F2 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791729EE9CED0057D683 /* Food+CoreDataProperties.swift */; };
+		A8681CD029F13BB9009B26F2 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857791629EE9CED0057D683 /* Food+CoreDataClass.swift */; };
+		A8768C6429EF1760005AE9FD /* ReplantingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8768C6329EF1760005AE9FD /* ReplantingVC.swift */; };
+		A8C1BAD729F1AB190035E705 /* ReplantingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8768C6329EF1760005AE9FD /* ReplantingVC.swift */; };
+		A8C1BAD829F1AB270035E705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857790129EE96910057D683 /* ViewController.swift */; };
+		A8C1BADE29F1B3260035E705 /* ReducingTipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1BADD29F1B3260035E705 /* ReducingTipCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80E812729F068F600FBD5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85778F229EE96900057D683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85778F929EE96910057D683;
+			remoteInfo = food_waste_reducing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80E811D29F0560900FBD5DC /* NutritionalCalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionalCalculatorVC.swift; sourceTree = "<group>"; };
+		A80E812329F068F500FBD5DC /* CaloriesCalculatorsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesCalculatorsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E812529F068F600FBD5DC /* CaloriesCalculatorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCalculatorsTest.swift; sourceTree = "<group>"; };
+		A85778FA29EE96910057D683 /* food_waste_reducing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = food_waste_reducing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85778FD29EE96910057D683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A85778FF29EE96910057D683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A857790129EE96910057D683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A857790429EE96910057D683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A857790729EE96910057D683 /* food_waste_reducing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = food_waste_reducing.xcdatamodel; sourceTree = "<group>"; };
+		A857790929EE96960057D683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A857790C29EE96960057D683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A857790E29EE96960057D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A857791429EE9AB50057D683 /* AddFoodWasteTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodWasteTipsVC.swift; sourceTree = "<group>"; };
+		A857791629EE9CED0057D683 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Food+CoreDataClass.swift"; path = "food_waste_reducing/Models/Food+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A857791729EE9CED0057D683 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Food+CoreDataProperties.swift"; path = "food_waste_reducing/Models/Food+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A857791A29EE9D1B0057D683 /* FoodDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDBManager.swift; sourceTree = "<group>"; };
+		A8768C6329EF1760005AE9FD /* ReplantingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplantingVC.swift; sourceTree = "<group>"; };
+		A8C1BADD29F1B3260035E705 /* ReducingTipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducingTipCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80E812029F068F500FBD5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85778F729EE96910057D683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80E812429F068F500FBD5DC /* CaloriesCalculatorsTest */ = {
+			isa = PBXGroup;
+			children = (
+				A80E812529F068F600FBD5DC /* CaloriesCalculatorsTest.swift */,
+			);
+			path = CaloriesCalculatorsTest;
+			sourceTree = "<group>";
+		};
+		A85778F129EE96900057D683 = {
+			isa = PBXGroup;
+			children = (
+				A85778FC29EE96910057D683 /* food_waste_reducing */,
+				A80E812429F068F500FBD5DC /* CaloriesCalculatorsTest */,
+				A85778FB29EE96910057D683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85778FB29EE96910057D683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85778FA29EE96910057D683 /* food_waste_reducing.app */,
+				A80E812329F068F500FBD5DC /* CaloriesCalculatorsTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85778FC29EE96910057D683 /* food_waste_reducing */ = {
+			isa = PBXGroup;
+			children = (
+				A887824B29F2474900D09309 /* DBManager */,
+				A887824A29F2470000D09309 /* Views */,
+				A8C1BAD429F1AA640035E705 /* Controllers */,
+				A8C1BAD329F1AA510035E705 /* Models */,
+				A85778FD29EE96910057D683 /* AppDelegate.swift */,
+				A85778FF29EE96910057D683 /* SceneDelegate.swift */,
+				A857790B29EE96960057D683 /* LaunchScreen.storyboard */,
+				A857790929EE96960057D683 /* Assets.xcassets */,
+				A857790E29EE96960057D683 /* Info.plist */,
+				A857790629EE96910057D683 /* food_waste_reducing.xcdatamodeld */,
+			);
+			path = food_waste_reducing;
+			sourceTree = "<group>";
+		};
+		A887824A29F2470000D09309 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8C1BADD29F1B3260035E705 /* ReducingTipCell.swift */,
+				A857790329EE96910057D683 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A887824B29F2474900D09309 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				A857791A29EE9D1B0057D683 /* FoodDBManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		A8C1BAD329F1AA510035E705 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A857791729EE9CED0057D683 /* Food+CoreDataProperties.swift */,
+				A857791629EE9CED0057D683 /* Food+CoreDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8C1BAD429F1AA640035E705 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A857790129EE96910057D683 /* ViewController.swift */,
+				A80E811D29F0560900FBD5DC /* NutritionalCalculatorVC.swift */,
+				A8768C6329EF1760005AE9FD /* ReplantingVC.swift */,
+				A857791429EE9AB50057D683 /* AddFoodWasteTipsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80E812229F068F500FBD5DC /* CaloriesCalculatorsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E812929F068F600FBD5DC /* Build configuration list for PBXNativeTarget "CaloriesCalculatorsTest" */;
+			buildPhases = (
+				A80E811F29F068F500FBD5DC /* Sources */,
+				A80E812029F068F500FBD5DC /* Frameworks */,
+				A80E812129F068F500FBD5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80E812829F068F600FBD5DC /* PBXTargetDependency */,
+			);
+			name = CaloriesCalculatorsTest;
+			productName = CaloriesCalculatorsTest;
+			productReference = A80E812329F068F500FBD5DC /* CaloriesCalculatorsTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A85778F929EE96910057D683 /* food_waste_reducing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A857791129EE96960057D683 /* Build configuration list for PBXNativeTarget "food_waste_reducing" */;
+			buildPhases = (
+				A85778F629EE96910057D683 /* Sources */,
+				A85778F729EE96910057D683 /* Frameworks */,
+				A85778F829EE96910057D683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = food_waste_reducing;
+			productName = food_waste_reducing;
+			productReference = A85778FA29EE96910057D683 /* food_waste_reducing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85778F229EE96900057D683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A80E812229F068F500FBD5DC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A85778F929EE96910057D683;
+					};
+					A85778F929EE96910057D683 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A85778F529EE96900057D683 /* Build configuration list for PBXProject "food_waste_reducing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85778F129EE96900057D683;
+			productRefGroup = A85778FB29EE96910057D683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85778F929EE96910057D683 /* food_waste_reducing */,
+				A80E812229F068F500FBD5DC /* CaloriesCalculatorsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80E812129F068F500FBD5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85778F829EE96910057D683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857790D29EE96960057D683 /* LaunchScreen.storyboard in Resources */,
+				A857790A29EE96960057D683 /* Assets.xcassets in Resources */,
+				A857790529EE96910057D683 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80E811F29F068F500FBD5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8681CCF29F13BB6009B26F2 /* Food+CoreDataProperties.swift in Sources */,
+				A8681CCD29F13B22009B26F2 /* AddFoodWasteTipsVC.swift in Sources */,
+				A8C1BAD729F1AB190035E705 /* ReplantingVC.swift in Sources */,
+				A80E812C29F0692D00FBD5DC /* NutritionalCalculatorVC.swift in Sources */,
+				A8681CD029F13BB9009B26F2 /* Food+CoreDataClass.swift in Sources */,
+				A80E812629F068F600FBD5DC /* CaloriesCalculatorsTest.swift in Sources */,
+				A808C51029F1C56E00D0715B /* ReducingTipCell.swift in Sources */,
+				A8C1BAD829F1AB270035E705 /* ViewController.swift in Sources */,
+				A8681CCE29F13B96009B26F2 /* FoodDBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85778F629EE96910057D683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857790229EE96910057D683 /* ViewController.swift in Sources */,
+				A8768C6429EF1760005AE9FD /* ReplantingVC.swift in Sources */,
+				A85778FE29EE96910057D683 /* AppDelegate.swift in Sources */,
+				A857791929EE9CED0057D683 /* Food+CoreDataProperties.swift in Sources */,
+				A857791B29EE9D1B0057D683 /* FoodDBManager.swift in Sources */,
+				A8C1BADE29F1B3260035E705 /* ReducingTipCell.swift in Sources */,
+				A857791529EE9AB50057D683 /* AddFoodWasteTipsVC.swift in Sources */,
+				A857791829EE9CED0057D683 /* Food+CoreDataClass.swift in Sources */,
+				A857790829EE96910057D683 /* food_waste_reducing.xcdatamodeld in Sources */,
+				A80E811E29F0560900FBD5DC /* NutritionalCalculatorVC.swift in Sources */,
+				A857790029EE96910057D683 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80E812829F068F600FBD5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85778F929EE96910057D683 /* food_waste_reducing */;
+			targetProxy = A80E812729F068F600FBD5DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A857790329EE96910057D683 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A857790429EE96910057D683 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A857790B29EE96960057D683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A857790C29EE96960057D683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80E812A29F068F600FBD5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBDS6D54H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kushani.CaloriesCalculatorsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food_waste_reducing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/food_waste_reducing";
+			};
+			name = Debug;
+		};
+		A80E812B29F068F600FBD5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBDS6D54H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kushani.CaloriesCalculatorsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food_waste_reducing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/food_waste_reducing";
+			};
+			name = Release;
+		};
+		A857790F29EE96960057D683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A857791029EE96960057D683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A857791229EE96960057D683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBDS6D54H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = food_waste_reducing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kushani.food-waste-reducing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A857791329EE96960057D683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBDS6D54H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = food_waste_reducing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kushani.food-waste-reducing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80E812929F068F600FBD5DC /* Build configuration list for PBXNativeTarget "CaloriesCalculatorsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E812A29F068F600FBD5DC /* Debug */,
+				A80E812B29F068F600FBD5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85778F529EE96900057D683 /* Build configuration list for PBXProject "food_waste_reducing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857790F29EE96960057D683 /* Debug */,
+				A857791029EE96960057D683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A857791129EE96960057D683 /* Build configuration list for PBXNativeTarget "food_waste_reducing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A857791229EE96960057D683 /* Debug */,
+				A857791329EE96960057D683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A857790629EE96910057D683 /* food_waste_reducing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A857790729EE96910057D683 /* food_waste_reducing.xcdatamodel */,
+			);
+			currentVersion = A857790729EE96910057D683 /* food_waste_reducing.xcdatamodel */;
+			path = food_waste_reducing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A85778F229EE96900057D683 /* Project object */;
+}
